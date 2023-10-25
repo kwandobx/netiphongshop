@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>์Netiphong Shop</title>
+	<atom:link href="https://kwandobx.github.io/netiphongshop/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kwandobx.github.io/netiphongshop</link>
+	<description>ขายเสื้อผ้าสำหรับคุณ</description>
+	<lastBuildDate>Wed, 25 Oct 2023 17:49:57 +0000</lastBuildDate>
+	<language>th</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3.2</generator>
+	<item>
+		<title>สวัสดีชาวโลก &#8211; -&#8216;</title>
+		<link>https://kwandobx.github.io/netiphongshop/hello-world/</link>
+					<comments>https://kwandobx.github.io/netiphongshop/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[netiphong]]></dc:creator>
+		<pubDate>Wed, 25 Oct 2023 17:49:57 +0000</pubDate>
+				<category><![CDATA[ไม่มีหมวดหมู่]]></category>
+		<guid isPermaLink="false">https://kwandobx.github.io/netiphongshop/?p=1</guid>
+
+					<description><![CDATA[ยินดีต้อนรับสู่ WordPress นี่คือเรื่องแรกของคุณ แก้ไขหร [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>ยินดีต้อนรับสู่ WordPress นี่คือเรื่องแรกของคุณ แก้ไขหรือลบทิ้งไป แล้วมาเริ่มเขียนกัน!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://kwandobx.github.io/netiphongshop/hello-world/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
