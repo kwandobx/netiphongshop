@@ -1,0 +1,14 @@
+.control-section-author-writer h3.accordion-section-title {
+  color: #27ae61 !important;
+	border: 2px solid #27ae61 !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+a.button.button-secondary.alignright{
+    background: #151515;
+    color: #fff;
+}
+
+#customize-controls h3 {
+    font-size: 12px;
+}
