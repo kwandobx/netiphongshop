@@ -95,6 +95,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 
-define('WP_HOME','https://kwandobx.github.io/netiphongshop/');
-define('WP_SITEURL','https://kwandobx.github.io/netiphongshop/');
+define('WP_HOME','https://www.localhost/netiphongshop/');
+define('WP_SITEURL','https://www.localhost/netiphongshop/');
 define('FORCE_SSL_ADMIN', true);
