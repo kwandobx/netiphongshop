@@ -2,3 +2,9 @@
 [2023-10-26 13:13:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/netiphongshop/
 [2023-10-26 13:15:29] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/netiphongshop
 [2023-10-26 13:15:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/netiphongshop/
+[2023-10-26 13:24:03] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/netiphongshop
+[2023-10-26 13:24:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/netiphongshop/
+[2023-10-26 13:24:36] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/netiphongshop
+[2023-10-26 13:24:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/netiphongshop/
+[2023-10-26 13:31:27] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/netiphongshop
+[2023-10-26 13:31:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/netiphongshop/
