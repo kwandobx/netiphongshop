@@ -1,16 +1,23 @@
-
 # BEGIN WordPress
-# ทิศทาง (เส้น) ระหว่าง "จุดเริ่มต้น WordPress" และ "จุดสิ้นสุด WordPress" จะถูกสร้างขึ้นมา
-# โดยอัตโนมัติและควรจะถูกแก้ไขได้ด้วยตัวกรองของ WordPress เท่านั้น
-# การเปลี่ยนแปลงใดๆ ที่กระทำต่อทิศทางระหว่างเครื่องหมายจะถูกเขียนทับ
 <IfModule mod_rewrite.c>
+
 RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /netiphongshop/
-RewriteRule ^index\.php$ - [L]
+RewriteBase /
+
+# rule by www.ireallyhost.com
+# ทำการ redirect http to  https 
+# ทำการ redirect none www to www
+# Forcing http to https and non-www. to www.
+
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
+
+RewriteRule ^index.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /netiphongshop/index.php [L]
-</IfModule>
+RewriteRule . /index.php [L]
 
+</IfModule>
 # END WordPress
